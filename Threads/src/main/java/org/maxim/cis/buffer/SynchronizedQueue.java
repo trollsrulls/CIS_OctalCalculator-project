@@ -36,8 +36,4 @@ public class SynchronizedQueue {
         full.release();
     }
 
-    public int size() {
-        return elements.size();
-    }
-
 }
